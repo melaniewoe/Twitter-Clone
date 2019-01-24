@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 15, 2017, 11:13:26 PM
+    Author     : macbookair
+*/
+
+.container-signup {
+	background: linear-gradient(#74AFAD,#6772A4);
+	padding-top: 3em;
+	height: calc(100vh - 3em);
+}
+form-signup {
+	width: 70%;
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 2em 1.5em;
+	background: rgba(255,255,255,0.25);
+	border-radius: 10px;
+	box-shadow: rgba(0,0,0,0.5) 0 3px 20px;
+        font: 1.1em Georgia, serif;
+	color: #222;
+	letter-spacing: 0.01em;
+}
+input{
+	font: Tahoma;
+        background: white;
+	color: #222;
+	letter-spacing: 0.01em;   
+}
+/*
+  width supposed to be 100% but doesnt look good 
+*/
+h1 {
+	font: bold 2em Helvetica, sans-serif;
+	color: #335;
+	text-shadow: #cce 1px 1px 1px;
+	margin: 0 0 0.8em;
+	text-align: center;
+}
+label {
+	font-size: 1em;
+	display: inline-block;
+	width: 7em;
+}
+.form-row {
+	padding: 0.6em 0.3em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+input {
+	padding: 0.4em 0.3em;	
+}
+
+#divError{
+    color: crimson;
+    border: 1px solid crimson;	
+}
+
+.errored{
+    background: yellow;
+}
+
+.notVisible
+{
+    display: none;
+}
+
+.isVisible
+{
+    color: red;
+}
+
+.visibleBox{
+	font: 1.1em Georgia, serif;
+	color: #222;
+	letter-spacing: 0.01em;
+        width: 100%;
+}
+
+.btn {
+    background-color: #74AFAD; 
+    border: none;
+    color: white;
+    padding: 10px 148px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #74AFAD;
+}
+
+.btn:hover {
+    background-color: #74AFAD;
+    color: white;
+}
+
+
+select {
+  width: 258px;
+  position: relative;
+  left: -17px;
+  margin: 0;
+  border: 1px solid #DDE1E4;
+  border-top: none;
+  font-size:10pt;
+}
+
+/*** Styles for the main header ***/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #00BFFF;
+}
+
+b{
+    color:#60A6C1;
+}
+
+.panel-info{
+	border:1px lightgrey solid;
+}
+
+.panel-custom>.panel-heading {
+	background: none;
+	border-bottom: none;
+}
+
+body{
+	background-color: #F0FFFF;
+}
